@@ -6,7 +6,7 @@ const session = require('express-session');
 const router = require('./router');
 const app = express();
 
-const port = process.env.PORT||3000;
+const port = 3000;
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:true}))
 app.set('view engine','ejs');
@@ -35,6 +35,6 @@ app.get('/route',(req,res)=>{
 //})
 
 
-app.listen(port,()=>{ 
-   console.log(`Listening to the server on ${port}`);
+app.listen(process.env.PORT || port, ()=>{ 
+   console.log(`Listening to the server on http://localhost:${port}`);
 });
