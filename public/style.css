@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("assets/Diww.jpg");
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+
+form{
+    padding : 0 2em;
+}
+
+.heading{
+    padding: 0 50px;
+}
+
+.btnemail{
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.btnpreview{
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.btnall
+{
+    width: 230px;
+    height: 50px;
+    margin-left: 250px;
+}

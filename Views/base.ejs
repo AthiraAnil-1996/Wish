@@ -1,0 +1,27 @@
+
+
+<%- include('header') -%>
+
+   <div class="text-center center-div" id="login"></div>
+     <div class="container w-25 border py-5">
+        <div class="title pb-4">
+            <h2 class="font-weight-bold heading">Make a Wish</h2>
+        </div>
+        <form action="/route/dashboard" method="POST" class="pt-3">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" name="Yname">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Friend's Name" name="Fname">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="email" name="email">
+            </div>
+            <button type="submit" class="btn-btn-success">Create</button>
+        </form>
+
+     </div>
+
+
+
+    <%- include('footer') -%>

@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("assets/Diww.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a{
+    width: 1100px;
+    height:500px;
+    display: inline-block;
+    font-size: 70px;
+    padding-left: 600px;
+    padding-top: 300px;
+    color: rgb(14, 15, 79);
+    background-color: transparent;
+}
+P{
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 600px;
+    padding-top: 300px;
+    color: rgb(14, 15, 79);
+    background-color: transparent;
+}

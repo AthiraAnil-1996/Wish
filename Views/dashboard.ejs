@@ -1,0 +1,45 @@
+<%- include('header') -%>
+
+
+<div class="text-center center-div" id="wish"></div>
+     <div class="container w-50 border py-5">
+        <div class="title pb-5">
+            <h2 class="font-weight-bold heading">Make a Wish</h2>
+        </div>
+        
+            <div class="form-group">
+                <p>Hi <%=form_name%></p>
+                
+                <p>Let's celebrate the festival in the true sense by spreading joy and light up the world of others. Have a happy, safe and blessed Diwali! May you get prosperity and fortune on this auspicious and pious occasion of Diwali. Wishing the goodness of this festive season dwells within you and stays throughout the year.</p>
+            </div>
+
+            <div>
+                <p>______________________________________________________________________________________________________</p>
+            </div>
+
+            <div>
+                <p>For <%=friend%></p>
+            </div>
+            <form action="/route/message" method="POST" class="pt-3">
+            
+            <div>
+                <button type="submit" class="btn-btn-success btnemail">Send E-mail</button>
+            </div>
+            </form>
+
+
+            <form action="/route/preview" method="POST" class="pt-3">
+            <div>
+                <button type="submit" class="btn-btn-success btnpreview">Preview</button>
+            </div>
+            </form>
+        
+
+     </div>
+
+
+
+
+
+
+<%- include('footer') -%>
