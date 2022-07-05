@@ -35,4 +35,4 @@ app.get('/route',(req,res)=>{
 //})
 
 
-app.listen(port,()=>{ console.log("Listening to the server on http://localhost:3000")});
+app.listen(port,()=>{ console.log("Listening to the server on http://localhost:${port}")});
