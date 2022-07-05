@@ -13,8 +13,8 @@ app.set('view engine','ejs');
 
 //load static assets
 
-//app.use('/static',express.static(path.join(__dirname,'public')));
-//app.use('/static',express.static(path.join(__dirname,'public/assets')));
+app.use('/static',express.static(path.join(__dirname,'public')));
+app.use('/static',express.static(path.join(__dirname,'public/assets')));
 
 app.use('/route',router);
 
@@ -35,4 +35,6 @@ app.get('/route',(req,res)=>{
 //})
 
 
-app.listen(port,()=>{ console.log("Listening to the server on http://localhost:${port}")});
+app.listen(port,()=>{ 
+   console.log("Listening to the server on ${port}");
+});
