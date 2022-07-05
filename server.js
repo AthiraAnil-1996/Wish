@@ -9,6 +9,7 @@ const app = express();
 const port = 3000;
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:true}))
+app.set('Views', './public/Views');
 app.set('view engine','ejs');
 
 //load static assets
