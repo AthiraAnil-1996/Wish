@@ -36,5 +36,5 @@ app.get('/route',(req,res)=>{
 
 
 app.listen(port,()=>{ 
-   console.log("Listening to the server on ${port}");
+   console.log(`Listening to the server on ${port}`);
 });
